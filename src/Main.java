@@ -12,8 +12,8 @@ public class Main {
         System.out.println("Bonjour, quel est votre prénom ? ");
         String prenom = scanner.nextLine();
         System.out.println("Bonjour," + prenom);*/
-        somme();
-        division();
+        //somme();
+       // division();
         volume();
     }
 
@@ -47,13 +47,16 @@ public class Main {
 
     public static void volume() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Veuillez saisir le premier entier");
-        float premierEntier = scanner.nextInt();
-        System.out.println("Veuillez saisir le deuxieme entier");
-        float deuxiemeEntier = scanner.nextInt();
-        float division = premierEntier / deuxiemeEntier;
-        System.out.println("La division de " + premierEntier + " avec " + deuxiemeEntier +
-                "est egale a " + division);
+
+
+        System.out.println("Veuillez saisir la longueur");
+        float longueur = scanner.nextInt();
+        System.out.println("Veuillez saisir la largeur");
+        float largeur = scanner.nextInt();
+        System.out.println("Veuillez saisir la hauteur");
+        float hauteur = scanner.nextInt();
+        float resultat = longueur * largeur * hauteur;
+        System.out.println("Le volume est  " + resultat);
 
     }
 
