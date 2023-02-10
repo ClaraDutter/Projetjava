@@ -56,8 +56,7 @@ public class Main {
         System.out.println("Veuillez saisir la hauteur");
         float hauteur = scanner.nextInt();
         float resultat = longueur * largeur * hauteur;
-        System.out.println("Les volumes est  " + resultat);
-        System.out.printf("test");
+        System.out.println("Le volume est  " + resultat);
 
     }
 
